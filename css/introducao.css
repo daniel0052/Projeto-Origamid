@@ -51,6 +51,10 @@
     height: 25vh;
     max-width: none;
   }
+
+  .introducao {
+    gap: 0;
+  }
 }
 
 @media (max-width: 400px) {
