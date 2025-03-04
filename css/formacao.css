@@ -136,4 +136,20 @@
     position: initial;
     margin-bottom: 10px;
   }
+
+  .formacao-container::after {
+    width: 90px;
+    height: 90px;
+    bottom: -35px;
+    background-size: contain;
+  }
+}
+
+@media (max-width:500px) {
+  .formacao-container::after {
+    width: 70px;
+    height: 70px;
+    bottom: -35px;
+    background-size: contain;
+  }
 }
